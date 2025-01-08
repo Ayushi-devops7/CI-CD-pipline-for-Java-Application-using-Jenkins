@@ -9,7 +9,7 @@ pipeline{
     environment{
         cred = credentials('aws-key')
         dockerhub_cred = credentials('docker-cred')
-        DOCKER_IMAGE = "yash452009/project-k8s"
+        DOCKER_IMAGE = "ayushiagrawal25/project-k8s"
         DOCKER_TAG = "$BUILD_NUMBER"
     }
     stages{
